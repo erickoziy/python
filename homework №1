@@ -1,0 +1,6 @@
+game = 'my favorite game is "Nier Automata"'
+print(f'{game[0]}, {game[-1]}, {game[2]}, {game[-3]}')
+print(len(game))
+print(f'''{game[0:7]}, 
+{game[int(len(game)/2)-2:int(len(game)/2)+2]}, 
+{game[::3]}''')
